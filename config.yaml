@@ -1,11 +1,15 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:astro-ph.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        protoplanetary disk: 3
+        protostar: 3
+        star formation: 1
+        planet formation: 1
+        disk formation: 1
+        circumstellar disk: 1
+        protoplanet: 1
 
 # 通知の閾値
 score_threshold: 0
