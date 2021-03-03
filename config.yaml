@@ -6,10 +6,13 @@ keywords:
         protoplanetary disk: 3
         protostar: 3
         protostellar disk: 2
+        protostellar: 2
+        debris disk: 1
         star formation: 1
         planet formation: 1
         disk formation: 1
         circumstellar disk: 1
+        circumbinary disk: 1
         protoplanet: 1
 
 # 通知の閾値
