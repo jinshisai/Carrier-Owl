@@ -112,7 +112,7 @@ def notify(results: list, slack_id: str, line_token: str) -> None:
                f'\n hit keywords: `{word}`'\
                f'\n url: {url}'\
                f'\n title:    {title}'\
-               f'\n authours:    {authors}'\
+               f'\n authours:    %s'%(', '.join(authors))\
                f'\n abstract:'\
                f'\n \t {abstract}'\
                f'\n {star}'
