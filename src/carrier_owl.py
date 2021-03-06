@@ -103,17 +103,18 @@ def notify(results: list, slack_id: str, line_token: str) -> None:
     for result in sorted(results, reverse=True, key=lambda x: x.score):
         url = result.url
         title = result.title
-        authors = result.authors
+        authors = result.authors # added by J.Sai, 3/6/21
         abstract = result.abstract
         word = result.words
         score = result.score
+        print (authors.type)
 
         text = f'\n score: `{score}`'\
                f'\n hit keywords: `{word}`'\
                f'\n url: {url}'\
                f'\n title:    {title}'\
-               f'\n authours:    %s'%(', '.join(authors))\
-               f'\n abstract:'\
+               f'\n authours:    %s'%(', '.join(authors))
+        text = text + f'\n abstract:'\
                f'\n \t {abstract}'\
                f'\n {star}'
 
