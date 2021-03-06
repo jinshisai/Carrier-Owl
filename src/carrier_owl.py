@@ -22,6 +22,7 @@ warnings.filterwarnings('ignore')
 class Result:
     url: str
     title: str
+    authors: str # added by J.Sai, 3/6/21
     abstract: str
     words: list
     score: float = 0.0
@@ -47,9 +48,15 @@ def search_keyword(
     for article in articles:
         url = article['arxiv_url']
         title = article['title']
+        authors = article['authors']
         abstract = article['summary']
         score, hit_keywords = calc_score(abstract, keywords)
         if (score != 0) and (score >= score_threshold):
+            # edited by J.Sai, 3/6/21
+            # turned off translation
+
+            '''
+            # original
             title_trans = get_translated_text('ja', 'en', title)
             abstract = abstract.replace('\n', '')
             abstract_trans = get_translated_text('ja', 'en', abstract)
@@ -58,6 +65,15 @@ def search_keyword(
             result = Result(
                     url=url, title=title_trans, abstract=abstract_trans,
                     score=score, words=hit_keywords)
+            '''
+
+            # added
+            abstract_en = textwrap.wrap(abstract, 90)  # 90行で改行
+            abstract_en = '\n'.join(abstract_en)
+            result = Result(
+                    url=url, title=title, authors=authors,
+                    abstract=abstract_en, score=score, words=hit_keywords)
+
             results.append(result)
     return results
 
