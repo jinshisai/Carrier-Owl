@@ -107,7 +107,6 @@ def notify(results: list, slack_id: str, line_token: str) -> None:
         abstract = result.abstract
         word = result.words
         score = result.score
-        print (authors.type)
 
         text = f'\n score: `{score}`'\
                f'\n hit keywords: `{word}`'\
