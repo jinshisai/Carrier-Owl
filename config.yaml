@@ -5,7 +5,8 @@ subject: 'cat:astro-ph.*'
 keywords:
         protoplanetary disk: 3
         protostar: 3
-        protostellar disk: 2
+        protostellar disk: 3
+        protoplanetary discs: 3
         protostellar: 2
         debris disk: 1
         star formation: 1
