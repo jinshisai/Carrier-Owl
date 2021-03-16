@@ -3,11 +3,28 @@ subject: 'cat:astro-ph.*'
 
 # 検索キーワード
 keywords:
+        Protoplanetary disks: 3
+        Protoplanetary Disks:
+        Protoplanetary Disk:
         protoplanetary disk: 3
-        protostar: 3
-        protostellar disk: 3
+        protoplanetary disks: 3
+        Protoplanetary disc: 3
+        Protoplanetary discs: 3
+        Protoplanetary Disc: 3
+        Protoplanetary Discs: 3
+        protoplanetary disc: 3
         protoplanetary discs: 3
-        protostellar: 2
+        Protostar: 3
+        Protostars: 3
+        protostar: 3
+        protostars: 3
+        Protostellar disk: 3
+        Protostellar disks: 3
+        Protostellar Disk: 3
+        Protostellar Disks: 3
+        protostellar disk: 3
+        protostellar disks: 3
+        Protostellar: 2
         debris disk: 1
         star formation: 1
         planet formation: 1
