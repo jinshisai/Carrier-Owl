@@ -25,13 +25,27 @@ keywords:
         protostellar disk: 3
         protostellar disks: 3
         Protostellar: 2
+        protostellar: 2
+        Debris disk: 1
+        Debris disks: 1
         debris disk: 1
+        debris disks: 1
+        Debris disc: 1
+        Debris discs: 1
+        debris disc: 1
+        debris discs: 1
+        Star formation: 1
         star formation: 1
+        Planet formation: 1
         planet formation: 1
         disk formation: 1
         circumstellar disk: 1
+        circumstellar disks: 1
         circumbinary disk: 1
+        circumbinary disks: 1
         protoplanet: 1
+        exoplanet: 1
+        Exoplanet: 1
 
 # 通知の閾値
 score_threshold: 0
