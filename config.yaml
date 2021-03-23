@@ -4,8 +4,8 @@ subject: 'cat:astro-ph.*'
 # 検索キーワード
 keywords:
         Protoplanetary disks: 3
-        Protoplanetary Disks:
-        Protoplanetary Disk:
+        Protoplanetary Disks: 3
+        Protoplanetary Disk: 3
         protoplanetary disk: 3
         protoplanetary disks: 3
         Protoplanetary disc: 3
